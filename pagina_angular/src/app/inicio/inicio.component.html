@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Biblioteca</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            overflow: hidden;
+        }
+
+        #banner {
+            background-image: url('C:/Users/Jose Cuellar/Desktop/PYTHON_TRABAJOS/Angular-17-website-Video1and2/src/assets/images/banner-images/banner-image-1.jpg');
+            background-size: cover;
+            background-position: right;
+            height: 100vh; /* Ajustado para ocupar toda la altura de la pantalla */
+            width: 50%;
+            display: flex;
+            align-items: center; /* Alineado en el centro verticalmente */
+            justify-content: center; /* Alineado en el centro horizontalmente */
+            color: white;
+            text-align: center;
+        }
+
+        #banner-content {
+            max-width: 400px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .section-heading h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            margin-top: 10px; /* Ajuste de margen superior */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+        
+        #clients {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .col-5 {
+            width: 50%;
+            height: 100vh;
+            background-image: url('../assets/images/company-images/company-logo11.jpeg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .client-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="banner">
+    <!-- Banner Content -->
+    <div id="banner-content">
+        <div class="section-heading">
+            
+            <h1>Biblioteca Virtual</h1>
+            <h2>Explora el infinito mundo de la lectura en la Biblioteca Shakespeare. Sumérgete en historias cautivadoras, descubre nuevos mundos y encuentra la inspiración en cada página.
+                Nuestra biblioteca digital te ofrece una colección diversa y emocionante, lista para ser explorada. ¿Listo para comenzar tu viaje literario? ¡Bienvenido a la mejor Biblioteca!</h2>
+        </div>
+        <a href="/categorias" class="button">Empezar a leer</a>
+    </div>
+</div>
+
+<!-- Elemento a la derecha -->
+<a href="/categorias" class="col-5">
+    <!-- Contenido opcional, como texto o enlace -->
+</a>
+
+<section id="categorias" class="scrollto clearfix">
+    <div class="row clearfix">
+
+        <!-- Otras Categorías -->
+        <!-- Agrega más según sea necesario -->
+
+    </div>
+</section>
+
+</body>
+</html>
